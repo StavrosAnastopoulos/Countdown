@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href=\"https://StavrosAnastopoulos.github.io/Countdown/\" && ngh --dir=dist/countdown"
   },
   "private": true,
   "dependencies": {
